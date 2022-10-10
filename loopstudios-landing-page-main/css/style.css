@@ -1,0 +1,509 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: inline-block;
+  max-width: 100%;
+}
+
+.header-bg {
+  background-image: url("../images/desktop/image-hero.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 960px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  padding-top: 50px;
+}
+
+.header ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.nav a{
+  color: #fff;
+  font-family: Alata;
+  font-weight: 400;
+  padding: 5px;
+}
+
+.nav a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+.msg {
+  max-width: 960px;
+  margin: 0 auto;
+  padding-bottom: 80px;
+  
+}
+
+.immersive {
+  margin-bottom: 80px;
+}
+
+.immersive p {
+  font-family: Josefin Sans;
+  font-weight: 300;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 3em;
+  padding: 30px 35px;
+  border: #fff 3px solid;
+  max-width: 16ch;
+  
+}
+
+
+.vr {
+  max-width: 960px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.interactive {
+  margin-top: 100px;
+  
+}
+
+.interactive img {
+  max-width: 70%;
+}
+
+.vr-loop  {
+  position: absolute;
+  background-color: #fff;
+  bottom: 4px;
+  right: 125px;
+  padding-left: 60px;
+  padding-top: 60px;
+}
+
+.vr-loop h2 {
+  font-family: Josefin Sans;
+  text-transform: uppercase;
+  font-size: 2em;
+  margin: 0 auto;
+  letter-spacing: 3px;
+  max-width: 305px;
+  color: hsl(0, 0%, 0%);
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.vr-loop p {
+  max-width: 368px;
+  font-family: Alata;
+  font-size: 0.775em;
+  color: hsl(0, 0%, 55%);
+  line-height: 1.6;
+}
+
+
+
+.creations-main {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 960px;
+  margin: 0 auto;
+  gap: 15px;
+}
+
+.creations {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  max-width: 960px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.creations h2 {
+  font-family: Josefin Sans;
+  text-transform: uppercase;
+  font-size: 2em;
+  color: hsl(0, 0%, 0%);
+  letter-spacing: 2px;
+}
+
+.creations a:hover {
+  background-color: #000;
+  color: #fff;
+  border: none;
+}
+
+.creations a {
+  color: hsl(0, 0%, 41%);
+  border: 2px solid hsl(0, 0%, 41%);
+  padding: 8px 20px;
+  text-transform: uppercase;
+  font-family: Alata;
+  font-size: 0.675em;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+
+
+.earth {
+  background-image: url(../images/desktop/image-deep-earth.jpg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  flex: 1 1 190px;
+  height: 450px;
+  width: 250px;
+}
+
+.earth p {
+  color: #fff;
+  font-family: Josefin Sans;
+  text-transform: uppercase;
+  max-width: 75px;
+  font-size: 1.375em;
+  margin-left: 30px;
+  margin-top: 275px;
+}
+
+.night {
+  background-image: url(../images/desktop/image-night-arcade.jpg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  flex: 1 1 190px;
+  height: 450px;
+  width: 250px;
+}
+
+.night p {
+  color: #fff;
+  font-family: Josefin Sans;
+  text-transform: uppercase;
+  max-width: 75px;
+  font-size: 1.375em;
+  margin-left: 30px;
+  margin-top: 275px;
+}
+
+.soccer {
+  background-image: url(../images/desktop/image-soccer-team.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  flex: 1 1 190px;
+  height: 450px;
+  width: 250px;
+}
+
+.soccer p {
+  color: #fff;
+  font-family: Josefin Sans;
+  text-transform: uppercase;
+  max-width: 105px;
+  font-size: 1.375em;
+  margin-left: 30px;
+  margin-top: 275px;
+}
+
+.grid {
+  background-image: url(../images/desktop/image-grid.jpg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  flex: 1 1 190px;
+  height: 450px;
+  width: 250px;
+}
+
+.grid p {
+  color: #fff;
+  font-family: Josefin Sans;
+  text-transform: uppercase;
+  max-width: 105px;
+  font-size: 1.375em;
+  margin-left: 30px;
+  margin-top: 275px;
+}
+
+.from-vr {
+  background-image: url(../images/desktop/image-from-above.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  flex: 1 1 190px;
+  height: 450px;
+  width: 250px;
+}
+
+.from-vr p {
+  color: #fff;
+  font-family: Josefin Sans;
+  text-transform: uppercase;
+  max-width: 115px;
+  font-size: 1.375em;
+  margin-left: 30px;
+  margin-top: 375px;
+}
+
+.pocket {
+  background-image: url(../images/desktop/image-pocket-borealis.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  flex: 1 1 190px;
+  height: 450px;
+  width: 250px;
+}
+
+
+.pocket p {
+  color: #fff;
+  font-family: Josefin Sans;
+  text-transform: uppercase;
+  max-width: 115px;
+  font-size: 1.375em;
+  margin-left: 30px;
+  margin-top: 375px;
+}
+
+
+.curiosity {
+  background-image: url(../images/desktop/image-curiosity.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  flex: 1 1 190px;
+  height: 450px;
+  width: 250px;
+}
+
+.curiosity p {
+  color: #fff;
+  font-family: Josefin Sans;
+  text-transform: uppercase;
+  max-width: 115px;
+  font-size: 1.375em;
+  margin-left: 30px;
+  margin-top: 375px;
+}
+
+.make {
+  background-image: url(../images/desktop/image-fisheye.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  flex: 1 1 190px;
+  height: 450px;
+  width: 250px;
+}
+
+.make p {
+  color: #fff;
+  font-family: Josefin Sans;
+  text-transform: uppercase;
+  max-width: 115px;
+  font-size: 1.375em;
+  margin-left: 30px;
+  margin-top: 375px;
+}
+
+.footer {
+  background-color: #000;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 120px;
+}
+
+.footer-bg {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.logos {
+  display: flex;
+  gap: 15px;
+}
+
+.logos a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+.footer-sobre {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: #fff;
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+.rights {
+  color: #fff;
+}
+
+.links-footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 15px;
+}
+
+.links-footer a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+.rights {
+  color: hsl(0, 0%, 41%);
+  font-family: Alata;
+
+}
+
+.links-footer a {
+  color: #fff;
+  font-family: Alata;
+}
+
+@media(max-width:1000px) {
+  .header {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .immersive {
+    margin-left: 10px;
+  }
+  .interactive img {
+    margin-left: 10px;
+  }
+  .creations {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .creations-main {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .footer-bg {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .footer-sobre {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+@media(max-width:700px) {
+  .interactive img {
+    display: flex;
+    margin: 0 auto;
+  }
+  .vr-loop p {
+    text-align: center;
+  }
+  .creations-main {
+    
+  }
+  .vr {
+    position: initial;
+    align-items: center;
+    justify-content: center;
+  }
+  .vr-loop {
+    position: initial;
+    padding-left: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .interactive img {
+    max-width: 70%;
+    padding: 10px;
+  }
+  .footer-bg {
+    flex-direction: column;
+  }
+  .links-footer {
+    flex-direction: column;
+  }
+  .footer-sobre {
+    flex-direction: column;
+    align-items: center;
+  }
+  .logos {
+    margin-top: 25px;
+  }
+  .rights {
+    margin-top: 25px;
+  }
+}
+
+
+@media(max-width:620px) {
+  .header {
+    justify-content: center;
+    gap: 20px;
+  }
+  .immersive p {
+    margin: 0 auto;
+    max-width: 13ch;
+    padding: 25px 20px;
+    font-size: 2.4em;
+  }
+  .creations {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media(max-width:430px) {
+  .header ul {
+    justify-content: center;
+  }
+  .vr-loop h2 {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 1.875em;
+    margin-bottom: 10px;
+  }
+  .vr-loop p {
+    max-width: 245px;
+    margin-top: 10px;
+    margin: 0 auto;
+  }
+  .rights {
+    font-size: 0.875em;
+  }
+  .creations h2 {
+    text-align: center;
+  }
+  .immersive p {
+    margin-left: 0px;
+    font-size: 1.5em;
+    margin: 0 10px;
+  }
+}
+
